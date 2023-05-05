@@ -120,13 +120,29 @@ const App = () => {
           </form>
         </div>
       ) : (
-        <div className="flex justify-center my-56 text-white ">
-          <button
-            onClick={loginHandler}
-            className=" bg-blue-400 py-4 px-5 text-6xl rounded-lg hover:bg-blue-500 "
-          >
-            Sign in with Google
-          </button>
+        <div>
+          <div className="font-bold font-sans sm:text-6xl text-testColor text-center text-3xl">
+            Gappe Chat App
+          </div>
+          <div className="sm:flex  w-full sm:h-screen text-white absolute ">
+            <div className="sm:w-1/2 h-fit">
+              <img
+                src="https://img.freepik.com/free-vector/messaging-fun-concept-illustration_114360-1584.jpg?w=740&t=st=1683275657~exp=1683276257~hmac=78f0a1859971dfff0d7148f065c09fcdc1bb24056a57f09ca289ed15d3e4a50c"
+                alt="signup"
+              />
+            </div>
+            <div className="relative top-1/3 ">
+              <button
+                onClick={loginHandler}
+                className=" bg-blue-400 py-4 px-3 text-6xl rounded-lg hover:bg-blue-500  sm:h-fit "
+              >
+                Sign in with Google
+              </button>
+              <div className="text-black text-center mt-5">
+                Made with ❤️ by Bhaskar Chand.
+              </div>
+            </div>
+          </div>
         </div>
       )}
     </>

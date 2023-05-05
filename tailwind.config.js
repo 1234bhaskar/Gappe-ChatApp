@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         hero: "url('/src/chatApp1.jpg')",
       },
+      textColor: {
+        testColor: "#6c5ce7",
+      },
     },
   },
   plugins: [],
